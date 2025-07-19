@@ -67,3 +67,73 @@ print(f'{num1}+{num2} = {sum}')
 
 """
 
+"""
+print(9/2)
+print(9//2)
+print(9%2)
+print(9*2)
+print(9**2)
+# 先乘除 求商 求余 再加减 不知道加括号，优先级最高
+
+"""
+
+"""
+name = input("please input your name:")
+age = input("please age :")
+height = input("please your heigth:")
+print("我的名字是{}，年龄是{}岁，身高是{}厘米".format(name,age,height))
+print(f"我的名字是{name}，年龄是{age}岁，身高是{163}厘米")
+
+
+
+
+use_name = input("请输入用户名：")
+password = input("请输入密码：")
+print("用户名是：{},密码是：{}".format(use_name,password))
+print(f"用户名是：{use_name},密码是：{password}")
+
+day = int(input("请输入天数："))
+second = day * 24 * 3600
+print(f"{day}天等于{second}秒")
+
+
+age = int(input("please input your age:"))
+if age >= 18:
+    print("It is ok")
+else:
+    print("Minors are prohibited from entering")
+
+
+score = int(input("please your score:"))
+if score >= 90:
+    print("优")
+elif 80 <= score < 90:
+    print("良")
+elif score >=70 and score < 80 :
+    print("中")
+elif score >=60 and score < 70 :
+    print("差")
+else:
+    print("不及格")
+
+
+"""
+
+password = int(input("please your password:"))
+if password == 123456 :
+    print("password correct !")
+    qukuan = int(input("please your qukuan:"))
+    if qukuan <= 1000:
+        print("请输入您要取款的金额:{}".format(qukuan))
+    else:
+        print("余额不足")
+else:
+    print("密码错误")
+
+
+
+
+
+
+
+
